@@ -1,0 +1,43 @@
+/* Write your CSS here */
+* {
+  margin: 0;
+}
+.bg-container {
+  background-color: #93c5fd;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  background-color: #f8fafc;
+  padding: 35px;
+  margin: 25px;
+  height: auto;
+  width: auto;
+  border-radius: 10px;
+  overflow: auto;
+}
+
+.heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  padding: 10px;
+}
+.country {
+  color: #1e293b;
+  font-family: 'Roboto';
+  padding: 10px;
+}
+.countries-dropdown {
+  color: #000000;
+  font-family: 'Roboto';
+  padding: 10px;
+  margin: 10px;
+}
+
+label {
+  font-family: 'Roboto';
+}
